@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main() {
+int main() 
+{
     int n;
     cin >> n;
 
@@ -14,8 +15,5 @@ int main() {
         if (x < min) min = x;
         if (x > max) max = x;
     }
-
     cout << min << "\n" << max << "\n";
-
-    return 0;
 }
